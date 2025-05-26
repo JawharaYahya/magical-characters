@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'HarryP';
+  src: url('../fonts/HarryP.woff2') format('woff2');    
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box ;
+font-family: 'HarryP', cursive;
+font-size: 25px;
+
+}
+
+body {
+    background-color: #481812;
+}
+header{
+    background-color: #060201;
+height: 60px;
+padding: 12px;
+display: flex;
+justify-content:left;
+gap: 950px;
+padding-top: 18px;
+
+}
+h1{
+    color: #F5D583 ;
+  font-family: 'HarryP', cursive;
+
+}
+#houseFilter{
+    color: #060201;
+    background-color: #F5D583;
+    height: 35px;
+    border-radius: 12px;
+    width: 100px;
+    border: #946D34;
+    display: flex;
+    text-align: center;
+     font-family: 'HarryP', serif;
+
+}
+img{
+    width: 204px;
+    height: 300px;
+    border-radius: 14px;
+    padding-right:1px;
+    padding-bottom: 6px;
+   
+}
+#cardContainer{
+ 
+ padding-top: 10px;
+ display: flex;
+flex-wrap: wrap;
+justify-content:center;
+
+}
+.card{
+     border: 1px solid #946D34;
+     border-radius: 15px;
+      width: 205px;
+      margin: 15px;
+     background-color: #060201;
+     transition: transform 0.3s ease;
+    }
+    
+    .card:hover{
+        transform:  scale(1.1);
+}
+
+
+.cardContent{
+margin: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+    color: #481812;
+}
+
+#name{
+    color: #946D34;
+    margin-bottom: 8px;
+font-family: 'HarryP', cursive;
+
+}
+main h2{
+    display: flex;
+    justify-content: center;
+
+padding: 40px;
+color:#946D34;
+font-family: 'HarryP', cursive;
+}
+
+.loadMoreButton{
+display: flex;
+justify-content: center;
+padding: 15px;
+Margin: 50px;
+flex-direction: column;
+align-items: center;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+   left: 0px;
+    
+}
+
+
